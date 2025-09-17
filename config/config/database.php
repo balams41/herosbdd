@@ -1,3 +1,4 @@
+
 <?php
 
 try {
@@ -13,3 +14,4 @@ try {
     // Gestion d'erreur
     echo "Erreur de connexion ❌ : " . $e->getMessage();
 }
+?>
