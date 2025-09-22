@@ -9,7 +9,9 @@ $routes = [
     '/' => 'HomeController.php',
     '/register' => 'RegisterController.php',
     '/login' => 'LoginController.php',
-    '/logout' => 'LogoutController.php'
+    '/logout' => 'LogoutController.php',
+      '/hero' =>'HeroController.php',
+    '/edithero' =>'EditHeroController.php',
 ];
 
 // Récupération de l'URI actuelle de la requête utilisateur
